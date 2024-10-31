@@ -15,7 +15,7 @@ import org.springframework.web.servlet.i18n.LocaleChangeInterceptor;
 import org.springframework.web.servlet.i18n.SessionLocaleResolver;
 /**
  *
- * @author Jonathan
+ * @author Elias
  */
 public class ProjectConfig implements WebMvcConfigurer{
     /* Los siguientes métodos son para incorporar el tema de internacionalización en el proyecto */

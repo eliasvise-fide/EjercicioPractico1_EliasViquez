@@ -15,16 +15,15 @@ public class Sugerencia implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
     private Long id;
-    private String nombre;
+    private String nombre_persona;
     private String sugerencia;
     
     
     public Sugerencia() {
     }
 
-    public Sugerencia(String nombre, String sugerencia) {
-        this.nombre = nombre;
+    public Sugerencia(String nombre_persona, String sugerencia) {
+        this.nombre_persona = nombre_persona;
         this.sugerencia = sugerencia;
-
     }
 }

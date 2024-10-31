@@ -35,6 +35,7 @@ public class SugerenciaController {
 
     @PostMapping("/guardar")
     public String sugerenciaGuardar(Sugerencia sugerencia) {
+        
         sugerenciaService.save(sugerencia);
         return "redirect:/sugerencia/listado";
     }

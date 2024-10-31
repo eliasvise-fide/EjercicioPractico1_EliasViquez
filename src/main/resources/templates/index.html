@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org"
+      data-bs-theme="dark"
       xmlns="http://www.w3.org/1999/xhtml">
     <head th:replace="~{layout/plantilla :: head}">
-        <title>Examen</title>        
+        <title>Farmacia</title>        
     </head>
     <body>
         <header th:replace="~{layout/plantilla :: header}"/>
         
+        <h1>Video Promocional</h1>
+        
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6W4Rio0Gv4k?si=mcO88LnBNK8RPSSQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
         <footer th:replace="~{layout/plantilla :: footer}"/>  
     </body>
 </html>

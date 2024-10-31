@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:th="http://www.thymeleaf.org">
     <head th:fragment="head">
-        <title>Examen</title>
+        <title>Farmacia</title>
         <meta charset="UTF-8"/>
         <link th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" rel="stylesheet"/>
         <link th:href="@{/webjars/font-awesome/css/all.css}" rel="stylesheet"/>
@@ -24,9 +24,8 @@
 
                 <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
                     <li><a th:href="@{/}" class="nav-link px-2 link-secondary">[[#{aplicacion.titulo}]]</a></li>
-                    <li><a th:href="@{/categoria/listado}" class="nav-link px-2">Categories</a></li>
                     <li><a th:href="@{/producto/listado}" class="nav-link px-2">Products</a></li>
-                    <li><a th:href="@{/usuario/listado}" class="nav-link px-2">Users</a></li>
+                    <li><a th:href="@{/sugerencias/listado}" class="nav-link px-2">Sugerencias</a></li>
                 </ul>
 
                 <div class="col-md-3 text-end">
